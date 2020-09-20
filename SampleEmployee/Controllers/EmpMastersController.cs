@@ -20,8 +20,8 @@ namespace SampleEmployee.Controllers
     {
         private readonly SampleEmployeeContext _context;
         private IEmpMastersRepository _empmastersrespository;
-        private IConfiguration _configuration;
-      //  private IHttpContextAccessor _httpContextAccessor;
+        private IConfiguration _configuration;  
+   
 
         public EmpMastersController(SampleEmployeeContext context, IEmpMastersRepository empmastersrespository,IConfiguration configuration
            )
@@ -29,7 +29,8 @@ namespace SampleEmployee.Controllers
             _context = context;
             _empmastersrespository = empmastersrespository;
             _configuration = configuration;
-            //_httpContextAccessor = httpContextAccessor;
+           
+
         }
 
        
