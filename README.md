@@ -4,11 +4,14 @@ The application is basically for Employee registration in which all the given co
 Hope I covered all the point related to technical as I haven't develop any test cases so there might be some issues but after all everything is given as per expected.
 
 Steps to Run:
-Download Code from GitHub.
+Download Code from GitHub
 Download Postman tool
+https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop/related?hl=en
+you can easily get through this link.
 Changes in appsetting with connection String.
-Apply the scripts in your local db.
+Apply the scripts in your local db (scripts.sql).
 Push the request to api from postman.
 httpget and httppost.
 
+You can also check output images of api in postman.
 Thanks.
